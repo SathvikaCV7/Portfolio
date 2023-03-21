@@ -1,0 +1,270 @@
+*{
+    padding: 0;
+	margin: 0;
+	font-family: 'Josefin Sans', sans-serif;
+	box-sizing: border-box;
+}
+.hero{
+	height: 100vh;
+	width: 100%;
+	background-image: url(sath25.jpg);
+	background-size: cover;
+	background-position: center;
+	padding: 10px 5%;
+	margin:1px;
+}
+.content{
+	margin-top: 100px;
+}
+nav{
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+	
+}
+.logo{
+	color: white;
+	font-size: 35px;
+	letter-spacing: 1px;
+	cursor: pointer;
+}
+span{
+	color: #f9004d;
+}
+nav ul{
+	display:flex;
+	flex-wrap:wrap;
+}
+nav ul li{
+	list-style-type: none;
+	display: flex;
+	padding: 10px 20px;
+}
+nav ul li a{
+	color:white;
+	text-decoration:none ;
+	font-weight: bold;
+}
+nav ul li a:hover{
+	color: #f9004d;
+	transition: .3s;
+}
+h1{
+	color: white;
+	font-size: 75px;
+	margin: 20px 10px 20px;
+}
+h3{
+	color: white;
+	font-size: 27px;
+	margin-bottom: 50px;
+	margin-left: 17px;
+}
+h4{
+	color: #fcfc;
+	margin-left: 17px;
+	font-size: 30px;
+	font-style: italic;
+}
+#about{
+	margin: 1px;
+	width: 100%;
+	height:auto;
+	justify-content: space-around;
+	background-color:black;
+
+}
+#about img{
+	height:auto;
+	width: 450px;
+	justify-content: space-between;
+}
+.about-text{
+	margin:30px;
+	width: 500px;
+}
+.main{
+	width: 100%;
+	margin: 0px ;
+	display:flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.about-text h2{
+	color: white;
+	font-size: 3.5em;
+	margin-bottom: 20px;
+}
+.about-text h5{
+	color: white;
+	font: 22px;
+	letter-spacing: 2px;
+	margin-bottom: 25px;
+}
+.about-text p{
+	color: #fcfc;
+	letter-spacing: 1px;
+	line-height: 1.5em;
+	margin-bottom: 45px;
+
+}
+.button{
+	background-color: #f9004d;
+	color: white;
+	text-decoration:none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 13px 30px;
+	border-radius: 30px;
+	transition: .4s;
+}
+.button:hover{
+	background-color: transparent;
+	border: 2px solid #f9004d;
+	cursor: pointer;
+}
+.skills{
+	background-color: #101010;
+	width: 100%;
+	padding: 100px 10px;
+	margin: 1px;
+	
+}
+.title h2{
+	color: white;
+	font-size:  3.5em;
+	width: 100%;
+	margin: 30px auto;
+	text-align: center;
+}
+.box{
+	display: flex;
+	justify-content: space-evenly;
+	min-height: 10em;
+}
+
+.card{
+	width: 50%;
+	display:grid;
+	background-color: transparent;
+	border-color: azure;
+	border-radius: 15px double;
+	margin: 15px;
+	justify-content: space-around;
+	text-align: center;
+	
+	
+}
+.card i{
+	font-size: 50px;
+	display: block;
+	text-align: center;
+	margin: 25px 0px;
+	color: white;
+}
+h5{
+	color: white;
+	font-size: 1em;
+	margin-bottom: 15px;
+}
+.pra p{
+	color: #fcfc;
+	font-size: 16px;
+	margin-bottom: 25px;
+	line-height: 27px;
+}
+.pra p{
+	color: #fcfc;
+	font-size: 10px;
+	margin-bottom: 25px;
+	line-height: 27px;
+}
+
+.card .button{
+	background-color: transparent;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 9px 22px;
+	display: inline-flex;
+	border-radius: 20px;
+	transition: .4s;
+}
+.card .button hover{
+	background-color:transparent;
+	border: 2px solid #f9004d;
+	cursor:pointer;
+	transition:.4em;
+}
+.contact{
+	padding: 30px;
+	display: flex;
+	margin:1px;
+}
+.contact-left{
+	margin:1px;
+	flex-basis: 50%;
+	background-color: #101010;
+}
+.contact-right{
+	flex-basis:100%;
+	margin:2px;
+	background-color: #101010;
+	text-align: center;
+	color:aliceblue;
+	
+}
+.contact-left p{
+	margin-top: 30px;
+	justify-content: space-around;
+	background-color: #101010;
+	padding:30px;
+}
+
+.contact-left p i{
+	color:#f9004d;
+	margin-right:15px;
+	font-size:20px;
+}
+.social-icons{
+	margin-top:20px;
+	font-size: larger;
+	margin-bottom: 30px;
+}
+.social-icons a{
+	text-decoration: none;
+	color: #ababab;
+	margin-left:20px;
+	display:inline-block;
+}.social-icons a:hover{
+	color:#f9004d;
+	transform:translateY(-4px);
+}
+.message{
+	background-color: #101010;
+	
+}
+#temp{
+	display:flex;
+}
+.row{
+	display:flex;
+}
+
+.btns{
+    background-color:#f9004d;
+    border-radius: 20px;
+    width: 100px;
+    height:50px;
+    color:aliceblue;
+}
+.btns:hover{
+    border:5px solid white;
+    cursor: pointer;
+    background-color: transparent;
+}
+.last{
+	display:flex;
+	padding-left: 440px;
+}
