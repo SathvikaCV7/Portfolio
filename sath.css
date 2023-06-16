@@ -14,8 +14,8 @@
 	margin:1px;
 }
 .content{
-	top: 400px;
-	margin-left:100px;
+	margin-top: 250px;
+	margin-left:200px;
 }
 nav{
 	display:flex;
@@ -28,6 +28,7 @@ nav{
 	font-size: 35px;
 	letter-spacing: 1px;
 	cursor: pointer;
+	margin-top:30px;
 }
 span{
 	color: #f9004d;
@@ -35,6 +36,7 @@ span{
 nav ul{
 	display:flex;
 	flex-wrap:wrap;
+	margin-top:30px;
 }
 nav ul li{
 	list-style-type: none;
